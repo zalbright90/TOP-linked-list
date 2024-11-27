@@ -33,9 +33,9 @@ This project implements a custom Linked List data structure in JavaScript using 
 ```javascript
 
 const placesToVisit = new LinkedList();
-list.append(" Norway ");
-list.prepend(" Finland ");
-console.log(list.toString());
+placesToVisit.append(" Norway ");
+placesToVisit.prepend(" Finland ");
+console.log(placesToVisit.toString());
 
 ```
 #### Learning Objectives
